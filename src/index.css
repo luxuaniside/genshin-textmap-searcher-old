@@ -237,7 +237,7 @@ button:disabled {
 .mass-input {
     display: block;
     width: 100%;
-    min-height: 104px;
+    min-height: 54px;
     padding: 12px 16px;
     border: 1px solid #B98AFF;
     border-radius: 20px;
@@ -825,6 +825,7 @@ button.result-id:hover {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
     *,
     *::before,
     *::after {

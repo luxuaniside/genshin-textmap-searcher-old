@@ -53,7 +53,7 @@ function App() {
       default:
         return mode === "single" ? (
           <StatusMessage title="Search the textmap">
-            Type a name or a line of dialogue to see every place it appears, in English and in the original Chinese.
+            Type a name or a line of dialogue to see its appearences in game.
           </StatusMessage>
         ) : (
           <StatusMessage title="Search several things at once">
