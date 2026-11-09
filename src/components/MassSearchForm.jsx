@@ -35,7 +35,8 @@ function MassSearchForm({ value, onChange, onSubmit, loading }) {
       />
       <p className="field-hint">
         Separate queries with commas or new lines. To search for text that contains a comma, write{" "}
-        <code className="inline-code">\,</code> instead.
+        <code className="inline-code">\,</code> instead. Some Genshin related entries might be part of more common words, for example, searching "Ei" might lead to results like "th<strong>ei</strong>r". Add a <code className="inline-code">_</code>{" "}
+        at the start or end of the query to mark its boundaries.
       </p>
 
       {count > 0 && (

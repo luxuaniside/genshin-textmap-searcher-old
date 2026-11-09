@@ -2,7 +2,7 @@ const escapeRegExp = (text) => text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 /** Renders `text` with every occurrence of `term` wrapped in <mark>. */
 function Highlight({ text, term }) {
-  const needle = term?.trim();
+  const needle = term;
   if (!text || !needle) return text ?? null;
 
   // The capture group makes split() keep the matches, at the odd indices.
